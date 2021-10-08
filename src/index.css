@@ -7,7 +7,62 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.justify-content-around{
+  justify-content: space-around !important;
+}
+
+.justify-content-between{
+  justify-content: space-between !important;
+}
+
+.margin-lr-auto{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.mt1{
+  margin-top: .5rem;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media (min-width: 320px) {
+  html{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 600px) {
+  html{
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 960px) {
+  html{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html{
+    font-size: 16px;
+  }
 }
